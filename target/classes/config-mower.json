@@ -1,0 +1,23 @@
+{
+  "grass" : {
+    "xMax" : 5,
+    "yMax" : 5
+  },
+  "mowers" : [{
+      "positionX" : 1,
+      "positionY" : 2,
+      "cardinal" : "N",
+      "move" : "GAGAGAGAA"
+    }, {
+    "positionX" : 3,
+    "positionY" : 3,
+    "cardinal" : "E",
+    "move" : "AADAADADDA"
+  }, {
+    "positionX" : 1,
+    "positionY" : 3,
+    "cardinal" : "E",
+    "move" : "AAAAAAAAAADA"
+  }
+  ]
+}
