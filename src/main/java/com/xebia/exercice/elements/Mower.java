@@ -53,4 +53,21 @@ public class Mower {
         this.grass = grass;
     }
 
+    public void move(String moves) {
+
+        for( char movement : moves.toCharArray() ) {
+            switch ( movement ) {
+                case 'D':
+                    this.orientation = this.orientation.goRight();
+                    break;
+                case 'G':
+                    this.orientation = this.orientation.goLeft();
+                    break;
+                case 'A':
+                    this.orientation.move(this);
+                    break;
+            }
+        }
+
+    }
 }
